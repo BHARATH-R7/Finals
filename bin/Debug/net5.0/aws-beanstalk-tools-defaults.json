@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net5.0",
+    "self-contained" : false,
+    "application"    : "Finals",
+    "environment"    : "Finals-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-0fee3208\";\"aws:ec2:vpc,Subnets\"=\"subnet-79909834\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.1.5 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "finals-dev",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}

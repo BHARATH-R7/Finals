@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\imbha\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\imbha\\.nuget\\packages"
+    ]
+  }
+}
