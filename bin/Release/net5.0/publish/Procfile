@@ -1,0 +1,1 @@
+web: dotnet exec ./Finals.dll --urls http://0.0.0.0:5000/

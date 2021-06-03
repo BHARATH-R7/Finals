@@ -4,12 +4,12 @@ version: 0.2
 env:
    variables:
      PROJECT: Finals
-     DOTNET_CORE_RUNTIME: 5.0
+     DOTNET_CORE_RUNTIME: 3.1
 
 phases:   
   install:
     runtime-versions:
-      dotnet: 5.0   #${DOTNET_CORE_RUNTIME}
+      dotnet: ${DOTNET_CORE_RUNTIME}
       
   pre_build:
     commands:
